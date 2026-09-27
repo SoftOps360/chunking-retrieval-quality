@@ -1,0 +1,5 @@
+openai>=1.0
+python-dotenv>=1.0
+# For the semantic (embeddings) retriever. Pulls in numpy + a small model on first run.
+# The keyword scripts (01, 03) and the keyword half of 02 work WITHOUT this.
+sentence-transformers>=2.2
